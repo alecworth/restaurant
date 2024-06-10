@@ -22,7 +22,7 @@
 /*******************************************/
 
 h1, h2, h3, .time, .extra span:last-child {
-  font-family: 'Yeseva One', cursive;
+  font-family: 'Montserrat';
   font-size: 475%;
 }
 
@@ -35,7 +35,7 @@ h1, h2, h3, .time, .extra span:last-child {
     margin: 2%;
   }
   body main {
-    background-image: url(https://i.ibb.co/K0d0YmN/image.png);
+    background-image: url(https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: 150%;
     background-position-x: 100%;
     height: 43em;
@@ -87,10 +87,10 @@ h1, h2, h3, .time, .extra span:last-child {
     width: 70%;
   }
   body .aboutussec {
-    background-image: url(https://i.ibb.co/D9FLDx9/mainbg.jpg);
+    background-image: url(https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position-x: 100%;
     background-position-y: 100%;
-    background-size: 120%;
+    background-size: 150%;
   }
 
   body .aboutus h2, body .testimonials h3, body h2 {
@@ -183,9 +183,20 @@ span, p, a {
 /* LAYOUT
 /*******************************************/
 main {
-  background-image: url(https://i.ibb.co/fxhkrX9/image.png);
-  background-size: 100%;
+  background-image: url(https://i.ibb.co/5GZn5BC/Photopea-Edit.png);
+  background-size: 130%;
+  background-position-x: 20%;
+  background-position-y: 80%;
   height: 43em;
+}
+
+header {
+  height: 100px;
+}
+
+nav {
+  margin: 0 auto;
+  height: 100px;
 }
 
 header img, header ul {
@@ -201,21 +212,21 @@ header img {
   margin-right: 5%;
 }
 header ul {
-  width: 45%;
+  width: 80%;
   list-style-type: none;
   padding: 0;
   margin: 1.5% 0;
 }
 header ul li {
   display: inline-block;
-  width: 15%;
+  width: 10%;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 
 header a {
   text-decoration: none;
-  color: rgb(78,79,107);
+  color: rgb(255, 255, 255);
 }
 
 header + section {
@@ -282,7 +293,7 @@ section > h1 {
 .aboutus {
   width: 40%;
   float: right;
-  margin: 5% 20% 5% 20%;
+  margin: 5% 10% 5% 20%;
 }
 .aboutus h2 {
   margin: 2% 0;
@@ -313,6 +324,18 @@ section > h1 {
 
 .aboutus p {
   line-height: 1.5;
+}
+
+.aboutusimg {
+    width: 20%;
+    float: right;
+    margin: 5%;
+}
+
+.aboutussec img {
+  width: 25em;
+  height: 50%;
+  display: block;
 }
 
 .ordernow {
@@ -446,7 +469,7 @@ body {
 .imgsec img {
   margin: 0 auto;
   display: block;
-  padding: 3%;
+  padding: 2% 0;
 }
 
 .testimonials {
